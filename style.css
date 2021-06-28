@@ -1,0 +1,58 @@
+
+body{
+    margin:0;
+    background: #222;
+    font-weight: 400;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+header {
+   
+    background: #73b8e6;
+
+}
+header::after {
+    content: '';
+    display: table;
+    clear:both;
+
+
+}
+.logo {
+    width: 30%;
+    float: left;
+    padding: 10px 0;
+    line-height: 100px;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+nav a{
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a:hover {
+    color:rgb(104, 35, 35);
+
+}
