@@ -2,7 +2,7 @@
 body{
     margin:0;
     background: #222;
-    font-weight: 400;
+    font-weight: 300;
 
 }
 .container {
@@ -23,6 +23,7 @@ header::after {
 
 }
 .logo {
+    
     width: 30%;
     float: left;
     padding: 10px 0;
@@ -54,5 +55,25 @@ nav a{
 }
 nav a:hover {
     color:rgb(104, 35, 35);
+
+}
+.box {
+    background-image: url(file:///C:/Users/gutie/Pictures/photo-com.jpg);
+  padding: 200px;
+   margin: 300px;
+  
+    
+
+}
+.h2 {
+    font-family: cursive;
+    font-size: 200%;
+    color:aqua;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.button {
+    text-align: center;
+    vertical-align: middle;
 
 }
